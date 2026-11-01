@@ -42,6 +42,9 @@ payload:
   # FragPunk
   - PROCESS-NAME,FragPunk.exe
 
+  # Dead by Daylight
+  - PROCESS-NAME-REGEX,DeadByDaylight.*
+
   # Dota 2
   - PROCESS-NAME,dota2.exe
 
@@ -132,6 +135,9 @@ payload:
   - PROCESS-NAME,Battle.net.exe
   - PROCESS-NAME,BlizzardBrowser.exe
 
+  # Phasmophobia
+  - PROCESS-NAME,Phasmophobia.exe
+
   # HoYoverse
   - PROCESS-NAME,GenshinImpact.exe
   - PROCESS-NAME,ZenlessZoneZero.exe
@@ -149,6 +155,20 @@ payload:
   - PROCESS-NAME,Wuthering Waves.exe
   - PROCESS-NAME,KRWebView.exe # In-game webview
   - PROCESS-NAME,KRSDKExternal.exe
+
+  # FaceIT website
+  - DOMAIN-SUFFIX,faceit.com
+  - DOMAIN-SUFFIX,faceit-cdn.net
+
+  # CyberShoke
+  - DOMAIN-SUFFIX,cybershoke.net
+
+  # MIMESIS
+  - PROCESS-NAME,MIMESIS.exe
+
+  # AstrumPlay
+  - PROCESS-NAME-REGEX,(?i)^AstrumPlay
+
   # --- Steam ---
   - PROCESS-NAME,steam.exe
   - PROCESS-NAME,steamwebhelper.exe
