@@ -225,6 +225,10 @@ payload:
   - PROCESS-NAME,GOGGalaxy.exe
   - PROCESS-NAME,playnite.exe
 
+  # --- SAMP ---
+  - PROCESS-NAME,samp.exe
+  - PROCESS-NAME,gta_sa.exe
+  
   # --- Добавленно вручную ---
   - PROCESS-NAME,Raft.exe
   - PROCESS-NAME,Tanki.exe
