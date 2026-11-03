@@ -204,8 +204,6 @@ payload:
   - PROCESS-NAME,EpicGamesLauncher.exe
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
 
-  # --- Escape from Tarkov ---
-
   # --- Популярные игры ---
   - PROCESS-NAME,PUBG-Win64-Shipping.exe
   - PROCESS-NAME,TslGame.exe
@@ -213,7 +211,6 @@ payload:
   - PROCESS-NAME,rust.exe
   - PROCESS-NAME,Cyberpunk2077.exe
   - PROCESS-NAME,eldenring.exe
-  - PROCESS-NAME,GTA5.exe
   - PROCESS-NAME,RDR2.exe
   - PROCESS-NAME,bg3.exe
   - PROCESS-NAME,bg3_dx11.exe
